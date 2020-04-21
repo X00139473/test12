@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cothú Madraí</string>
+    <string name="action_settings">Socruithe</string>
+
+    <string name="title">Fáilte chuig an iarratas ar chothú ceo</string>
+    <string name="notAdoptedButton">Níor glacadh</string>
+    <string name="allDogsButton">Féach ar na madraí go léir</string>
+    <string name="breedFilter">Cuir isteach madra póir le do thoil : </string>
+    <string name="addDog">Ag iarraidh Madra a chur leis?</string>
+
+    <string name="dogBreed"> Pór madraí : </string>
+    <string name="dogName"> Ainm madra : </string>
+    <string name="dogAge"> Aois madraí : </string>
+    <string name="dogInfo"> Eolas faoi mhadraí : </string>
+    <string name="dogAdoption"> Uchtáil madraí : </string>
+
+    <string name="adoptButton">Glacadh?</string>
+    <string name="searchButton">Cuardaigh </string>
+
+</resources>

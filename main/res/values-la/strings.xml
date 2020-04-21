@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">canem Fostering</string>
+    <string name="action_settings">Optiones</string>
+
+    <string name="title">Receperint applicationem alma in nebula</string>
+    <string name="notAdoptedButton">non adoptatus</string>
+    <string name="allDogsButton">Omnes canibus</string>
+    <string name="breedFilter">canum genus : </string>
+    <string name="addDog">Volunt addere cane?</string>
+
+    <string name="dogBreed"> canem educ tecum : </string>
+    <string name="dogName"> nomen canis : </string>
+    <string name="dogAge"> canis aetas : </string>
+    <string name="dogInfo"> canem notitia : </string>
+    <string name="dogAdoption"> canem adoption : </string>
+
+    <string name="adoptButton">Capere?</string>
+    <string name="searchButton">Quaerere </string>
+</resources>

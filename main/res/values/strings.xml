@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DogFostering</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title">Welcome to the fog fostering application</string>
+    <string name="notAdoptedButton">Not adopted</string>
+    <string name="allDogsButton">View all dogs</string>
+    <string name="breedFilter">Please enter a breed dog : </string>
+    <string name="addDog">Want to add a Dog?</string>
+
+    <string name="dogBreed"> Dog breed : </string>
+    <string name="dogName"> Dog name : </string>
+    <string name="dogAge"> Dog age : </string>
+    <string name="dogInfo"> Dog info : </string>
+    <string name="dogAdoption"> Dog adoption : </string>
+
+
+    <string name="adoptButton">Adopt </string>
+    <string name="searchButton">Search </string>
+
+</resources>

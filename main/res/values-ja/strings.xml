@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">犬の育成</string>
+    <string name="action_settings">設定</string>
+
+    <string name="title">フォグ育成アプリケーションへようこそ</string>
+    <string name="notAdoptedButton">採用されていません</string>
+    <string name="allDogsButton">すべての犬を見る</string>
+    <string name="breedFilter">品種犬を入力してください : </string>
+    <string name="addDog">犬を追加したい?</string>
+
+    <string name="dogBreed"> 犬種 : </string>
+    <string name="dogName"> 犬の名前 : </string>
+    <string name="dogAge"> 犬の年齢 : </string>
+    <string name="dogInfo"> 犬情報 : </string>
+    <string name="dogAdoption"> 犬の養子縁組 : </string>
+
+    <string name="adoptButton">採用？ </string>
+    <string name="searchButton">探す? </string>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/title"
+        android:textAlignment="center" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/filterButton"
+            android:layout_width="150dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:text="@string/notAdoptedButton"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/filterallButton"
+            android:layout_width="150dp"
+            android:layout_marginLeft="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/allDogsButton"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/filterBreed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/breedFilter"
+        android:textColorHint="@color/cardview_dark_background"/>
+    <Button
+        android:id="@+id/filterBreedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/searchButton"
+        android:layout_gravity="center"/>
+
+
+
+    <ListView
+        android:id="@+id/list_view"
+
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="40dp">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/AddButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addDog"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
